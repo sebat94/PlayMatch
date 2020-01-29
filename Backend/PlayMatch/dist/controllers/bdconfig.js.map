@@ -1,0 +1,1 @@
+{"version":3,"file":"bdconfig.js","sourceRoot":"","sources":["../../src/controllers/bdconfig.ts"],"names":[],"mappings":";;;;;AAAA,kDAA0B;AAEb,QAAA,QAAQ,GAAG,eAAK,CAAC,gBAAgB,CAAC;IAC3C,IAAI,EAAE,WAAW;IACjB,IAAI,EAAE,MAAM;IACZ,QAAQ,EAAE,EAAE;IACZ,QAAQ,EAAE,WAAW;CACxB,CAAC,CAAC"}

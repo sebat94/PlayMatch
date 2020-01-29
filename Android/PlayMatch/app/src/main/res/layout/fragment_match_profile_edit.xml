@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".MatchProfileEditFragment">
+
+    <!-- En desarrollo -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/toolbar_fragment" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- *********** -->
+            <!-- IMAGES USER -->
+            <!-- *********** -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F5F5"
+                android:orientation="vertical">
+
+                <!-- 1st Row Images -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="18dp"
+                    android:paddingTop="18dp"
+                    android:paddingEnd="8dp">
+                    <!-- 1 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton1"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 2 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 3 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton3"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 2nd Row Images -->
+
+                <!-- 3rd Row Images -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="8dp">
+                    <!-- 4 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton4"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 5 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton5"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 6 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton6"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="8dp">
+                    <!-- 7 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton7"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 8 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton8"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                    <!-- 9 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="146dp"
+                        android:layout_weight=".33"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/idImageView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="128dp"
+                            android:layout_marginEnd="12dp"
+                            android:src="@drawable/dotted" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/idFloatingActionButton9"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end|bottom"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:src="@drawable/ic_add_grey_24dp"
+                            android:translationX="-6dp"
+                            android:translationY="-18dp"
+                            app:backgroundTint="@color/red"
+                            app:fabCustomSize="24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- ********* -->
+            <!-- INFO USER -->
+            <!-- ********* -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"
+                android:orientation="vertical"
+                android:paddingBottom="18dp">
+                <!-- Acerca de mi -->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="12dp"
+                    android:text="Selecciona una imágen para convertirla en tu foto de perfil"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="4dp"
+                        android:text="Acerca de mi"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/idEditTextAbout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_effect"
+                        android:ems="10"
+                        android:hint="Sobre ti"
+                        android:inputType="textPersonName"
+                        android:paddingStart="18dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="12dp"
+                        android:text="" />
+
+                </LinearLayout>
+                <!-- Puesto -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="4dp"
+                        android:text="Puesto"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/idEditTextJob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_effect"
+                        android:ems="10"
+                        android:hint="Añadir puesto"
+                        android:inputType="textPersonName"
+                        android:paddingStart="18dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="12dp"
+                        android:text="" />
+
+                </LinearLayout>
+                <!-- Empresa -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="4dp"
+                        android:text="Empresa"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/idEditTextCompany"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_effect"
+                        android:ems="10"
+                        android:hint="Añadir empresa"
+                        android:inputType="textPersonName"
+                        android:paddingStart="18dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="12dp"
+                        android:text="" />
+
+                </LinearLayout>
+                <!-- Escuela -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="18dp"
+                        android:paddingBottom="4dp"
+                        android:text="Escuela"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/idEditTextSchool"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ripple_effect"
+                        android:ems="10"
+                        android:hint="Añadir escuela"
+                        android:inputType="textPersonName"
+                        android:paddingStart="18dp"
+                        android:paddingTop="12dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="12dp"
+                        android:text="" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Use "FrameLayout" to insert on it dinamically the fragmets that we want -->
+    <FrameLayout
+        android:id="@+id/fragment_container_matchProfileEditFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
+
+</FrameLayout>

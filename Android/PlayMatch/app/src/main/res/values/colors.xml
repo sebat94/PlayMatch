@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="red">#eb1231</color>
+    <color name="white">#ffffff</color>
+    <color name="light_gray">#FAFAFA</color>
+    <color name="dark_gray">#E6E6E6</color>
+    <color name="black">#000000</color>
+    <color name="anthracite">#2B2B2D</color>
+    <color name="amber">#FFC107</color>
+
+    <!--
+        Android uses hexadecimal ARGB values, which are formatted as #AARRGGBB.
+        That first pair of letters, the AA, represent the alpha channel.
+        You must convert your decimal opacity values to a hexadecimal value.
+
+        We add this Strings here to maintain coherence with colors, but their type is "string",
+        which means that they will be accessed by 'R.string.opacity_xx' instead of 'R.color.opacity_xx'
+    -->
+    <item name="opacity_100" type="string" translatable="false">FF</item>
+    <item name="opacity_99" type="string" translatable="false">FC</item>
+    <item name="opacity_98" type="string" translatable="false">FA</item>
+    <item name="opacity_97" type="string" translatable="false">F7</item>
+    <item name="opacity_96" type="string" translatable="false">F5</item>
+    <item name="opacity_95" type="string" translatable="false">F2</item>
+    <item name="opacity_94" type="string" translatable="false">F0</item>
+    <item name="opacity_93" type="string" translatable="false">ED</item>
+    <item name="opacity_92" type="string" translatable="false">EB</item>
+    <item name="opacity_91" type="string" translatable="false">E8</item>
+    <item name="opacity_90" type="string" translatable="false">E6</item>
+    <item name="opacity_89" type="string" translatable="false">E3</item>
+    <item name="opacity_88" type="string" translatable="false">E0</item>
+    <item name="opacity_87" type="string" translatable="false">DE</item>
+    <item name="opacity_86" type="string" translatable="false">DB</item>
+    <item name="opacity_85" type="string" translatable="false">D9</item>
+    <item name="opacity_84" type="string" translatable="false">D6</item>
+    <item name="opacity_83" type="string" translatable="false">D4</item>
+    <item name="opacity_82" type="string" translatable="false">D1</item>
+    <item name="opacity_81" type="string" translatable="false">CF</item>
+    <item name="opacity_80" type="string" translatable="false">CC</item>
+    <item name="opacity_79" type="string" translatable="false">C9</item>
+    <item name="opacity_78" type="string" translatable="false">C7</item>
+    <item name="opacity_77" type="string" translatable="false">C4</item>
+    <item name="opacity_76" type="string" translatable="false">C2</item>
+    <item name="opacity_75" type="string" translatable="false">BF</item>
+    <item name="opacity_74" type="string" translatable="false">BD</item>
+    <item name="opacity_73" type="string" translatable="false">BA</item>
+    <item name="opacity_72" type="string" translatable="false">B8</item>
+    <item name="opacity_71" type="string" translatable="false">B5</item>
+    <item name="opacity_70" type="string" translatable="false">B3</item>
+    <item name="opacity_69" type="string" translatable="false">B0</item>
+    <item name="opacity_68" type="string" translatable="false">AD</item>
+    <item name="opacity_67" type="string" translatable="false">AB</item>
+    <item name="opacity_66" type="string" translatable="false">A8</item>
+    <item name="opacity_65" type="string" translatable="false">A6</item>
+    <item name="opacity_64" type="string" translatable="false">A3</item>
+    <item name="opacity_63" type="string" translatable="false">A1</item>
+    <item name="opacity_62" type="string" translatable="false">9E</item>
+    <item name="opacity_61" type="string" translatable="false">9C</item>
+    <item name="opacity_60" type="string" translatable="false">99</item>
+    <item name="opacity_59" type="string" translatable="false">96</item>
+    <item name="opacity_58" type="string" translatable="false">94</item>
+    <item name="opacity_57" type="string" translatable="false">91</item>
+    <item name="opacity_56" type="string" translatable="false">8F</item>
+    <item name="opacity_55" type="string" translatable="false">8C</item>
+    <item name="opacity_54" type="string" translatable="false">8A</item>
+    <item name="opacity_53" type="string" translatable="false">87</item>
+    <item name="opacity_52" type="string" translatable="false">85</item>
+    <item name="opacity_51" type="string" translatable="false">82</item>
+    <item name="opacity_50" type="string" translatable="false">80</item>
+    <item name="opacity_49" type="string" translatable="false">7D</item>
+    <item name="opacity_48" type="string" translatable="false">7A</item>
+    <item name="opacity_47" type="string" translatable="false">78</item>
+    <item name="opacity_46" type="string" translatable="false">75</item>
+    <item name="opacity_45" type="string" translatable="false">73</item>
+    <item name="opacity_44" type="string" translatable="false">70</item>
+    <item name="opacity_43" type="string" translatable="false">6E</item>
+    <item name="opacity_42" type="string" translatable="false">6B</item>
+    <item name="opacity_41" type="string" translatable="false">69</item>
+    <item name="opacity_40" type="string" translatable="false">66</item>
+    <item name="opacity_39" type="string" translatable="false">63</item>
+    <item name="opacity_38" type="string" translatable="false">61</item>
+    <item name="opacity_37" type="string" translatable="false">5E</item>
+    <item name="opacity_36" type="string" translatable="false">5C</item>
+    <item name="opacity_35" type="string" translatable="false">59</item>
+    <item name="opacity_34" type="string" translatable="false">57</item>
+    <item name="opacity_33" type="string" translatable="false">54</item>
+    <item name="opacity_32" type="string" translatable="false">52</item>
+    <item name="opacity_31" type="string" translatable="false">4F</item>
+    <item name="opacity_30" type="string" translatable="false">4D</item>
+    <item name="opacity_29" type="string" translatable="false">4A</item>
+    <item name="opacity_28" type="string" translatable="false">47</item>
+    <item name="opacity_27" type="string" translatable="false">45</item>
+    <item name="opacity_26" type="string" translatable="false">42</item>
+    <item name="opacity_25" type="string" translatable="false">40</item>
+    <item name="opacity_24" type="string" translatable="false">3D</item>
+    <item name="opacity_23" type="string" translatable="false">3B</item>
+    <item name="opacity_22" type="string" translatable="false">38</item>
+    <item name="opacity_21" type="string" translatable="false">36</item>
+    <item name="opacity_20" type="string" translatable="false">33</item>
+    <item name="opacity_19" type="string" translatable="false">30</item>
+    <item name="opacity_18" type="string" translatable="false">2E</item>
+    <item name="opacity_17" type="string" translatable="false">2B</item>
+    <item name="opacity_16" type="string" translatable="false">29</item>
+    <item name="opacity_15" type="string" translatable="false">26</item>
+    <item name="opacity_14" type="string" translatable="false">24</item>
+    <item name="opacity_13" type="string" translatable="false">21</item>
+    <item name="opacity_12" type="string" translatable="false">1F</item>
+    <item name="opacity_11" type="string" translatable="false">1C</item>
+    <item name="opacity_10" type="string" translatable="false">1A</item>
+    <item name="opacity_09" type="string" translatable="false">17</item>
+    <item name="opacity_08" type="string" translatable="false">14</item>
+    <item name="opacity_07" type="string" translatable="false">12</item>
+    <item name="opacity_06" type="string" translatable="false">0F</item>
+    <item name="opacity_05" type="string" translatable="false">0D</item>
+    <item name="opacity_04" type="string" translatable="false">0A</item>
+    <item name="opacity_03" type="string" translatable="false">08</item>
+    <item name="opacity_02" type="string" translatable="false">05</item>
+    <item name="opacity_01" type="string" translatable="false">03</item>
+    <item name="opacity_00" type="string" translatable="false">00</item>
+</resources>

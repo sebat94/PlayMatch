@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="my_number_is">My number is</string>
+    <string name="Has_your_phone_number_changed">Has your phone number changed?</string>
+    <string name="login_email">Log In with email</string>
+    <string name="terms_and_conditions">By pressing "Continue", PlayMatch will send you a text message with a verification code. Message rates and data transmission may apply. The verified phone number can be used to log in.</string>
+    <string name="continue_button">Continue</string>
+    <string name="app_name">PlayMatch</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_match">MatchActivity</string>
+    <!-- content_main.xml -->
+    <string name="no_publicamos_nada_en_facebook"><u>We don\'t publish anything on Facebook</u></string>
+    <string name="no_consigues_iniciar_sesion">" Can not log in?"</string>
+    <string name="iniciar_sesion_con_telefono">LOG IN WITH THE TELEPHONE NUMBER</string>
+    <string name="iniciar_sesion_con_facebook">START SESSION WITH FACEBOOK</string>
+    <string name="titulo_content_main">Find interesting people in your surroundings</string>
+    <string name="politica_de_privacidad">By clicking "Login", you accept our <u>Terms of service and Privacy policy</u></string>
+    <!-- fragment_main_login_verify.xml -->
+    <string name="mi_codigo_es">My code is</string>
+    <string name="reenviar">Resend</string>
+</resources>

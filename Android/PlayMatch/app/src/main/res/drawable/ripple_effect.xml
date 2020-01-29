@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- in drawable folder-->
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="?android:colorControlHighlight"
+    tools:targetApi="lollipop">
+    <!-- - We use "tools:targetApi="lollipop" to tell app that only load this in supported devices-->
+    <!-- - It's the mask in which ripple effect is applied. Without it you won't be able to make the ripple effect to be in the same shape of the background.-->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <!-- put your background color here-->
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+</ripple>
