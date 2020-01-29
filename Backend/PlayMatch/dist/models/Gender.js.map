@@ -1,0 +1,1 @@
+{"version":3,"file":"Gender.js","sourceRoot":"","sources":["../../src/models/Gender.ts"],"names":[],"mappings":";;AAAA,MAAa,MAAM;IAIf,YAAY,MAAe;QACvB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACzB,CAAC;IAEM,SAAS;QAElB,OAAO,IAAI,CAAC,MAAM,CAAC;IACpB,CAAC;IAEM,SAAS,CAAC,MAAc;QACxB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACzB,CAAC;CAEJ;AAjBD,wBAiBC"}

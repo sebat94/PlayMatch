@@ -1,0 +1,26 @@
+------------------------------------------------------------
+Podemos mandar datos en un DELETE, a través del QueryString:
+------------------------------------------------------------
+
+Por ejemplo para enviar un array haríamos:
+http://192.168.1.11:3000/user/me/deleteimages?images="[{'id': 5, 'url': 'src/public/images/user/7_1543342835644.png', 'user': 7, 'isProfile': false}, {'id': 6, 'url': 'src/public/images/user/7_1543342835659.png', 'user': 7, 'isProfile': false}]"
+
+Y lo recogeríamos así:
+let data: IImage[] = JSON.parse(JSON.parse(request.query['images']).replace(/'/g, '"'));
+
+
+
+---------------------
+JOIN AND CONDITIONAL:
+---------------------
+SELECT 
+c.id, 
+m.message, 
+m.userSender,
+u.id, 
+u.nick 
+FROM `chat` as c
+LEFT JOIN `message` as m ON c.id = m.chat 
+LEFT JOIN `user` as u ON m.userSender = u.id
+WHERE c.matchUser1 = 8 OR c.matchUser2 = 8
+AND u.id = (SELECT IF(c.matchUser1 = 8, c.matchUser2, c.matchUser1)) 

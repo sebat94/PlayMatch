@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pagerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:context=".MatchActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- Custom Toolbar -->
+        <include layout="@layout/toolbar_generic" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- TODO: Arreglar Swipe Lateral Del YuyaKaido Card con el ViewPager
+        - ViewPager That Loads Fragments Of ActivityMatch
+        First <ViewPager .../> is the Original Tag XML For ViewPager, but we need make a Custom View pager to be able to Enable/Disable Swipe event
+    -->
+    <!--<android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager" />-->
+
+    <!-- We use this RelativeLayout for Overlap The Content the AppBarLayout defined above when I open some fragment with their own AppBarLayout -->
+    <RelativeLayout
+        android:id="@+id/contentViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.dam.daniel.playmatch.utils.customXML.ViewPagerUtils
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
