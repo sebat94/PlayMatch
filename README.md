@@ -19,15 +19,15 @@ Por último, en el ViewPager, si desplazamos el dedo por la pantalla hacia la iz
 Librerías Destacadas
 ----------------------
 
-https://developers.google.com/identity/sms-retriever/overview
-https://github.com/yuyakaido/CardStackView
-https://github.com/ReactiveX/RxJava
-https://socket.io
-https://developer.android.com/training/volley?hl=es-419
-https://github.com/google/gson
-https://github.com/bumptech/glide
-https://www.twilio.com/
-https://github.com/Jay-Goo/RangeSeekBar
+- https://developers.google.com/identity/sms-retriever/overview
+- https://github.com/yuyakaido/CardStackView
+- https://github.com/ReactiveX/RxJava
+- https://socket.io
+- https://developer.android.com/training/volley?hl=es-419
+- https://github.com/google/gson
+- https://github.com/bumptech/glide
+- https://www.twilio.com/
+- https://github.com/Jay-Goo/RangeSeekBar
 
 Tecnologías
 -------------
