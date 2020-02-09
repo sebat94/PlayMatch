@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {   //implements CountryCode
 //
 //        User validUser = new User();
 //        validUser.setId(77);
-//        validUser.setTelephoneNumber("+34680731117");
+//        validUser.setTelephoneNumber("+34666666666");
 //        validUser.setNick("Danieloru94");
 //        validUser.setBirthdate("1994-08-16");
 //        validUser.setGender(1);
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {   //implements CountryCode
 //
 //        User validUser = new User();
 //        validUser.setId(78);
-//        validUser.setTelephoneNumber("+34619802051");
+//        validUser.setTelephoneNumber("+34666666666");
 //        validUser.setNick("Pepi");
 //        validUser.setBirthdate("1966-12-31T23:00:00.000Z");
 //        validUser.setGender(2);
