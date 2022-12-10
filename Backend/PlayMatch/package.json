@@ -12,10 +12,10 @@
   "author": "Daniel López Ruano",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "helmet": "^3.14.0",
     "http": "0.0.0",
     "https": "^1.0.0",
