@@ -19,7 +19,7 @@
     "helmet": "^3.14.0",
     "http": "0.0.0",
     "https": "^1.0.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "mem-cache": "0.0.5",
     "mysql": "^2.16.0",
     "node-cron": "^2.0.3",
